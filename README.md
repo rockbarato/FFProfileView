@@ -1,4 +1,4 @@
-## ProfileView
+## FFProfileView
 
 ![Image](http://cl.ly/image/171J0k100n2v/Mockup.jpg)
 Un UIViewController que contiene una vista para las imágenes de perfil de usuario.
@@ -19,4 +19,4 @@ Puedes cambiar los valores por defecto como el key donde se guarda la imagen, el
 ### Licencia
 ===============
 
-ProfileView está disponible bajo la licencia [WTFPL (Do What the Fuck You Want to Public License)](http://www.wtfpl.net/about/). Veáse el archivo LICENSE para más información.
+FFProfileView está disponible bajo la licencia [WTFPL (Do What the Fuck You Want to Public License)](http://www.wtfpl.net/about/). Veáse el archivo LICENSE para más información.
