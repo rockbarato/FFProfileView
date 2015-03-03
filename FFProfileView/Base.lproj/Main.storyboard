@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uVc-E2-Hob">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="qUv-z7-M33">
+            <objects>
+                <viewController id="uVc-E2-Hob" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="diG-WU-kwQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="qer-oD-w1X"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FLC-ZZ-nnk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="18R-vg-vbH">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="230"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="230" id="glg-Zo-FYm"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JAe-cK-dkk">
+                                <rect key="frame" x="250" y="51" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="fem-h8-EKo"/>
+                                    <constraint firstAttribute="width" constant="100" id="j35-LP-ud9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Abi" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q9e-Ar-mfW">
+                                <rect key="frame" x="16" y="159" width="568" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="2Po-Nb-Lih"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ptj-Ii-Itm">
+                                <rect key="frame" x="213" y="550" width="174" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="174" id="Ab0-ly-Hnl"/>
+                                    <constraint firstAttribute="height" constant="30" id="ewe-rl-fIA"/>
+                                </constraints>
+                                <state key="normal" title="Cambiar Imagen de Perfil">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="También puedes hacer tap en tu avatar para cambiar la imagen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ETN-EE-J2O">
+                                <rect key="frame" x="209" y="255" width="182" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="89" id="Iul-c8-H5I"/>
+                                    <constraint firstAttribute="width" constant="182" id="Wk9-gs-8ge"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" red="0.44858743690000003" green="0.44858743690000003" blue="0.44858743690000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Q9e-Ar-mfW" firstAttribute="top" secondItem="JAe-cK-dkk" secondAttribute="bottom" constant="8" id="0bV-zV-luw"/>
+                            <constraint firstAttribute="centerX" secondItem="ETN-EE-J2O" secondAttribute="centerX" id="2oF-oA-DVi"/>
+                            <constraint firstAttribute="centerX" secondItem="JAe-cK-dkk" secondAttribute="centerX" id="8Ms-77-x6L"/>
+                            <constraint firstAttribute="trailing" secondItem="Q9e-Ar-mfW" secondAttribute="trailing" constant="16" id="CNX-c3-43L"/>
+                            <constraint firstItem="Q9e-Ar-mfW" firstAttribute="leading" secondItem="FLC-ZZ-nnk" secondAttribute="leading" constant="16" id="ELM-xQ-LOl"/>
+                            <constraint firstItem="18R-vg-vbH" firstAttribute="top" secondItem="FLC-ZZ-nnk" secondAttribute="top" id="LMx-ty-VCd"/>
+                            <constraint firstItem="ETN-EE-J2O" firstAttribute="top" secondItem="18R-vg-vbH" secondAttribute="bottom" constant="25" id="MX6-pP-eOp"/>
+                            <constraint firstItem="qer-oD-w1X" firstAttribute="top" secondItem="Ptj-Ii-Itm" secondAttribute="bottom" constant="20" id="Wtp-lQ-E5g"/>
+                            <constraint firstAttribute="centerX" secondItem="Q9e-Ar-mfW" secondAttribute="centerX" id="ZHQ-hv-UYK"/>
+                            <constraint firstAttribute="centerX" secondItem="Ptj-Ii-Itm" secondAttribute="centerX" id="c2m-n2-qCD"/>
+                            <constraint firstAttribute="trailing" secondItem="18R-vg-vbH" secondAttribute="trailing" id="egm-cX-7XU"/>
+                            <constraint firstItem="18R-vg-vbH" firstAttribute="leading" secondItem="FLC-ZZ-nnk" secondAttribute="leading" id="hgq-s6-MHt"/>
+                            <constraint firstItem="JAe-cK-dkk" firstAttribute="top" secondItem="diG-WU-kwQ" secondAttribute="bottom" constant="31" id="wV5-DO-iTi"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="avatarProfileImage" destination="JAe-cK-dkk" id="PTf-Lc-G9h"/>
+                        <outlet property="backgroundProfileImage" destination="18R-vg-vbH" id="5yf-Hn-Xxq"/>
+                        <outlet property="changeAvatarButton" destination="Ptj-Ii-Itm" id="mBF-hH-Fbf"/>
+                        <outlet property="profileName" destination="Q9e-Ar-mfW" id="fUZ-ml-EhB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyE-Ja-ocH" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
