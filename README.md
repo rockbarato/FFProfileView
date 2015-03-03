@@ -1,6 +1,6 @@
 ## FFProfileView
 
-![Image](http://cl.ly/image/171J0k100n2v/Mockup.jpg)
+![Image](http://cl.ly/image/1G232U0C0T2E/Mockup.jpg)
 Un UIViewController que contiene una vista para las imágenes de perfil de usuario.
 
 También tienes la opción de marcar una imagen por defecto, elegir una foto de la galería o bien tomar una foto con la cámara.
