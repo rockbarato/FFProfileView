@@ -18,6 +18,6 @@ Puedes cambiar los valores por defecto como el key donde se guarda la imagen, el
 
 ## Licencia
 
-FFProfileView está disponible bajo la licencia [WTFPL (Do What the Fuck You Want to Public License)](http://www.wtfpl.net/about/). Veáse el archivo LICENSE para más información.
+FFProfileView está disponible bajo la licencia [MIT](http://opensource.org/licenses/MIT). Veáse el archivo LICENSE para más información.
 
 ![WTFPL License](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-2.png)
