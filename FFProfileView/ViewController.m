@@ -41,7 +41,13 @@
 	self.avatarProfileImage.contentMode = UIViewContentModeScaleAspectFill;
 	self.avatarProfileImage.userInteractionEnabled = YES;
 	self.avatarProfileImage.multipleTouchEnabled = YES;
-	[self.avatarProfileImage setImage:[UIImage imageNamed:kDefaultProfileImage]];
+	
+	// Si existe una imagen guardada, la seteamos
+	if ([self getPreference:kImagePreferenceKey] != nil) {
+		[self.avatarProfileImage setImage:[self getPreference:kImagePreferenceKey]];
+	} else {
+		[self.avatarProfileImage setImage:[UIImage imageNamed:kDefaultProfileImage]];
+	}
 	
 	[self addTapGestureToAvatar];
 	
